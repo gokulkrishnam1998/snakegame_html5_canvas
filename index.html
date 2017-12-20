@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		This is snake game!!!!
+	</title>
+	<meta charset="utf-8"/>
+</head>
+<!-- font-->
+<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
+
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script type="text/javascript" src="script.js"></script>
+<body position="relative">
+	<div class="container">
+		<canvas>
+			Your browser is poor!!!!
+		</canvas>
+	</div>	
+	<div class="score_container">
+		<div class='inlinebox'>
+			<div class="box">
+				<div class="scores" >Current score:<br>
+					<span id="currentscore">0</span></div>
+				<div class="scores">High score:<br>
+					<span id="highscore">0</span></div>
+			<button id="start-btn" class="Start">Start</button>
+		</div>
+		</div>
+	</div>
+	<div class="modal">
+		<div class="modalcontent">
+			<div id="modalheader">
+				<div id="modaltitle">
+					<span>Game Over !!!!!</span>
+				</div>
+			<!--
+				<div id="modalbutton" class="idclose">
+					<span class="close">&times;</span>
+				</div>
+			-->
+			</div>
+			<div id="modalbody">
+				<div id="finalscore">
+					Final Score is
+				</div>
+				<div id="finalscorefield">
+					<span id="finalscoreinfo">0</span>
+				</div>
+			</div>
+			<button id="modalfooter">
+				<span id="footer">Try Again !!!!!</span>
+			</button>
+		</div>
+	</div>
+</body>
+</html>
+<!-- style="display:none"-->

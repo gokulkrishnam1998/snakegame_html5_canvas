@@ -1,0 +1,167 @@
+
+body
+{
+	background: url(images/snake_body_image.jpg);
+}
+.container
+{
+	position: relative;
+	text-align: center;
+}
+canvas
+{
+	/*width: 800px;
+	height: 800px;*/
+
+	border: 1px #cccccc solid;
+	background: url(images/snakebackground.png);
+}
+#currentscore
+{
+	font-size: 25px;
+}
+
+#highscore
+{
+	font-size: 25px;
+}
+
+.Start
+{	
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size: 25px;
+	font-weight: bold;
+}
+/*.overlay
+{
+	position: relative;
+	height: 100px;
+	width: 150px;
+	color: white;
+	background-color: black;
+	overflow:auto;
+	left:300px;
+	top:150px;
+	z-index: 40;
+}
+#overlay-container
+{
+	z-index: 40;
+	text-align: center;
+	height: 100px;
+	width: 150px;
+}*/
+
+.close
+{
+	color:rgb(73, 72, 72);
+}
+
+.close:hover
+{
+	color:black;
+	cursor: pointer;
+}
+
+.modal
+{	
+	display: none;
+	position: fixed;
+	left: 0;
+	top:0;
+	z-index: 1;
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,0.5);
+	overflow: auto;
+}
+
+.modalcontent
+{
+	background: white;
+	margin: 15% auto;
+	width: 50%;
+	height: 30%;
+
+}
+#modalheader
+{	
+	height: 15%;
+	border-bottom: 1px black dotted;
+}
+
+#modaltitle
+{   
+	float: left;
+	text-align: center;
+	padding: 2px;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+#finalscore
+{
+	float: left;
+	width: 100%;
+    text-align: center;
+	height: 40%;
+	font-size: 30px;
+}
+#finalscorefield
+{
+	font-size: 40px;
+	width: 100%;
+	height: 60%;
+	text-align: center;
+}
+
+
+#modalfooter
+{	
+	margin: 0px;
+	font-weight: bolder;
+	border: 0px;
+	width: 100%;
+	height: 20%;
+	background-color: coral;
+}
+
+#modalbody
+{
+	height: 75%;
+}
+
+.idclose
+{	
+	float: right;
+	font-size: 20px;
+	font-weight: bolder;
+	padding: 3px;
+}
+
+.scores
+{   
+	height: 50px;
+	width: 100px;
+	color: white;
+	background-color: #341A6C;
+	border: 1px black solid;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 15px;
+}
+
+.score_container
+{	
+
+    text-align: center;
+}
+.inlinebox
+{
+	border:2px black solid;
+	display: inline-block;
+}
+.box
+{
+	display: flex;
+}
